@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 80% ;
+    margin: auto;
+}
+header{
+   
+    background-color: #27333b;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    height: 5rem;
+}
+.logo{
+    color: rgba(255, 255, 255, 0.767);
+    margin-left: 150px;
+    font-family: viaoda libre;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black;
+}
+.itens{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.itens a {
+    text-decoration: none;
+    color: #658d8f;
+}
+.itens a:hover{
+    text-decoration: underline;
+}
+.fototop{
+    width: 100%;
+    height: 30rem;
+}
+.primeiro-atigo h2{
+    font-family: viaoda libre;
+    text-align: center;
+    margin: 5rem 0 3rem;
+}
+.primeiro-atigo p {
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    color: #555;
+}
+.artistas{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.artistas h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1rem;
+    letter-spacing: 2px;
+
+}
+.artistas img{
+    width: 10rem;
+    height: 10rem;
+}
+.artistas p {
+    font-size: 14px;
+
+}
+.sessao-detalhes {
+    color: white;
+    background-image: url(/imagens/bg_detalhe.png);
+    height: 35rem;
+    font-family: viaoda libre;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sessao-detalhes h2 {
+   font-size: 40px;
+   width: 60%;
+   letter-spacing: 3px;
+   margin: 0;
+   
+  
+
+    
+}
+.sessao-detalhes p{
+    font-size: 20px;
+    width: 60%;
+    margin-top: 30px;
+    
+    
+}
+footer {
+    color: #6f8597;
+    text-align: center;
+    background-color: #0b171f;
+    padding: 7px;
+}
